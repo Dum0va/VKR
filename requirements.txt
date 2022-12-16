@@ -1,12 +1,6 @@
 Gunicorn
-Flask==2.2.2
-importlib-metadata==5.1.0
-keras==2.11.0
+Flask
+keras
 pandas
-pickle-mixin==1.0.2
-sklearn==0.0.post1
-tensorboard==2.11.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.11.0
-tensorflow-estimator==2.11.0
+pickle-mixin
+sklearn
