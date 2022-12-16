@@ -1,0 +1,41 @@
+<!doctype html>
+<style>
+form {
+    margin: auto;
+    width: 35%;
+}
+
+.result {
+    margin: auto;
+    width: 35%;
+    border: 1px solid #ccc;
+}
+</style>
+
+<head>
+    <title>Рекомендация соотношения матрица-наполнитель</title>
+</head>
+
+<form action="{{url_for('main')}}" method="POST">
+    <fieldset>
+        <legend>Введите значение</legend>
+        {% for i in range(1,13,1) %} 
+		x{{i}}
+		<input name= "x{{i}}" type="numder" required>
+              
+        <br>
+        <br>
+		{%endfor%}
+        <input type="submit">
+    </fieldset>
+</form>
+
+<div class="result" align="center">
+    {% if result %}
+        <br>
+        <p style="font-size:50px">
+        Рекомендация матрица наполнителя
+        </p>
+        <p style="font-size:50px"> {{result}}</p>
+    {% endif %}
+</div>
