@@ -2,7 +2,7 @@ Gunicorn
 Flask==2.2.2
 importlib-metadata==5.1.0
 keras==2.11.0
-pandas==1.5.2
+pandas
 pickle-mixin==1.0.2
 sklearn==0.0.post1
 tensorboard==2.11.0
