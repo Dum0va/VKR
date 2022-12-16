@@ -4,3 +4,4 @@ keras
 pandas
 pickle-mixin
 sklearn
+tensorflow
